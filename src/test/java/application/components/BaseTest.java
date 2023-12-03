@@ -31,14 +31,14 @@ public class BaseTest {
         return driver; // we will return the driver with the value
      }
 
-     @BeforeMethod(description = "Start of Application")
-    public LandingPage launchApplication() throws IOException {
-
-         driver = initializeDriver();
-         //landingPage = new LandingPage(driver);
-         //landingPage.goTo();
-         return LandingPage;
-     }
+//     @BeforeMethod(description = "Start of Application")
+//    public LandingPage launchApplication() throws IOException {
+//
+//         driver = initializeDriver();
+//         //landingPage = new LandingPage(driver);
+//         //landingPage.goTo();
+//         return LandingPage;
+//     }
      }
 
 
