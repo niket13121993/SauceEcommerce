@@ -7,6 +7,7 @@
     <list default="true" id="3a5084d1-0a58-4ed8-9974-8f07c21baa21" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/application/components/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/components/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testscenarios/AppLaunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testscenarios/AppLaunch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +59,17 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Testsauce.start">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+  <component name="RunManager" selected="TestNG.AppLaunch">
+    <configuration name="AppLaunch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceEcommerce" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testsauce" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SauceEcommerce" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Testsauce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testscenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testscenarios" />
+      <option name="MAIN_CLASS_NAME" value="testscenarios.AppLaunch" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,12 +77,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testsauce.start" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppLaunch.LoginValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceEcommerce" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Testsauce" />
-      <option name="METHOD_NAME" value="start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testscenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testscenarios" />
+      <option name="MAIN_CLASS_NAME" value="testscenarios.AppLaunch" />
+      <option name="METHOD_NAME" value="LoginValidation" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppLaunch.dashboardValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceEcommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testscenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testscenarios" />
+      <option name="MAIN_CLASS_NAME" value="testscenarios.AppLaunch" />
+      <option name="METHOD_NAME" value="dashboardValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppLaunch.landingPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceEcommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testscenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testscenarios" />
+      <option name="MAIN_CLASS_NAME" value="testscenarios.AppLaunch" />
+      <option name="METHOD_NAME" value="landingPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceEcommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testscenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testscenarios" />
+      <option name="MAIN_CLASS_NAME" value="testscenarios.Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -91,9 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Testsauce.start" />
-        <item itemvalue="TestNG.Testsauce" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="TestNG.AppLaunch" />
+        <item itemvalue="TestNG.AppLaunch.dashboardValidation" />
+        <item itemvalue="TestNG.AppLaunch.LoginValidation" />
+        <item itemvalue="TestNG.AppLaunch.landingPage" />
+        <item itemvalue="TestNG.Login" />
       </list>
     </recent_temporary>
   </component>

@@ -13,10 +13,10 @@ import java.time.Duration;
 public class BaseTest {
 
     public static WebDriver driver;
-
+    public String browserName;
     // creating a webdriver method for initializing it
     public WebDriver initializeDriver() throws IOException {
-        String browserName = "chrome";
+         browserName= "chrome";
         if(browserName.equalsIgnoreCase("chrome")){
             driver = new ChromeDriver();
         }
@@ -28,7 +28,8 @@ public class BaseTest {
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
         driver.manage().window().maximize();
-        return driver; // we will return the driver with the value
+        return driver;
+        // we will return the driver with the value
      }
 
 //     @BeforeMethod(description = "Start of Application")
